@@ -7,7 +7,7 @@ body{
 }
 header h1{
     text-align: center;
-}
+    }
 nav ul{
     display: flex;
     justify-content: center;
@@ -174,6 +174,15 @@ ul li{
 @media only screen and (min-width:600px)
 {
     body{background-color: ;}
+nav ul li{
+        list-style: none;
+        margin: 0.5rem;
+        padding: 0.2rem;
+        background-color: whitesmoke;
+        border-radius: 0.8rem;
+        font-family: 'Glass Antiqua';   
+        font-size: xx-large;
+    }
 .mainCTM{
     height: 80vh;
     display: grid;
@@ -184,17 +193,17 @@ ul li{
 }
 .Titulo{
     text-align: center;
-    font-family:'Alegreya Sans SC', sans-serif;
+    font-family:'Glass Antiqua', cursive;
     font-size: 25px;
     grid-area: Titulo;
     padding: 3rem;
 }
 .pqLogo{
     text-align: center;
-    font-family:'Alegreya Sans SC', sans-serif;
+    font-family:'Glass Antiqua', cursive;
     font-size: 25px;
     grid-area: pqLogo;
-    padding: 5rem;
+    padding: 3rem;
     height: 5rem;
 }
 footer div{
