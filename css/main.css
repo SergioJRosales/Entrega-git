@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to left, #b8b1e4, #c9c4ea, whitesmoke)
+}
+header h1{
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0.5rem;
+    padding: 0.2rem;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    font-family: 'Alegreya Sans SC', sans-serif;   
+}
+nav ul li:hover{
+    background-color: #b8b1e4;
+    transform: scale(1.2);
+}
+.mainCTM{
+    height: 80vh;
+    display: grid;
+    grid-template-areas: "Titulo Titulo"
+                "holistico holistico"
+                "img img"
+                "pqLogo pqLogo"
+                "DesLog DesLog";
+    justify-content: center;
+}
+.Titulo{
+    text-align: center;
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    grid-area: Titulo;
+    padding: 1rem;
+}
+.holistico{
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    grid-area: holistico;
+}
+.img{
+    text-align: center;
+    grid-area: img;
+}
+.pqLogo{
+    text-align: center;
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    grid-area: pqLogo;
+}
+.DesLog{
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    grid-area: DesLog;
+    padding: 1rem;
+}
+footer div{
+    text-align: end;
+    align-items: center;
+    padding: 2rem;
+}
+ul li{
+    list-style: none;
+}
+list-style: none;
+}
+.mainNos{
+    height: 80vh;
+    display: grid;
+    grid-template-areas: "fSergio fSergio"
+                         "titSer titSer"
+                         "fMaria fMaria"
+                         "titMaria titMaria";
+    justify-content: center;
+}
+.fSergio{
+    text-align: center;
+    grid-area: fSergio;
+}
+.titSer{
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    grid-area: titSer;
+    padding: 2rem;
+}
+.fMaria{
+    text-align: center;
+    grid-area: fMaria;
+    padding: 2rem;
+}
+.titMaria{
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    grid-area: titMaria;
+    padding: 4rem;
+}
+.mainCoach{
+    padding-top: 2rem;
+    height: 80vh;
+    display: grid;
+    grid-template-areas: "queCoach queCoach"
+                         "textCoach textCoach"
+                         "coachEj coachEj"
+                         "textCoach2 textCoach2";
+    justify-content: center;
+}
+.queCoach{
+    text-align: center;
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    grid-area: queCoach;
+}
+.textCoach{
+    grid-area: textCoach;
+}
+.coachEj{
+    text-align: center;
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    grid-area: coachEj;
+}.textCoach2{
+    grid-area: textCoach2;
+}
+.Prop{
+    text-align: center;
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size: 25px;
+    padding: 2rem;
+    font-style: italic;
+}
+.listProp{
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size: 15px;
+    margin: 1.5rem;
+}
+ul li{
+    margin: 0.3rem;
+}
+.mainCont{
+    
+    font-family:'Alegreya Sans SC', sans-serif;
+    padding: 2rem;
+    font-style: italic;
+}
+.Cont{
+    text-align: center;
+    font-size: 19px;
+    padding: 2rem;
+}
+.mje{
+    text-align: center;
+    font-size: 19px;
+    padding: 1rem;
+}
+.tabCont{
+    text-align: left;
+    font-size: 10px;
+}
+.Seguinos{
+    font-family:'Alegreya Sans SC', sans-serif;
+    padding: 2rem;
+    font-size: 19px;
+}
+
+/*Media Query*/
+@media only screen and (min-width:600px)
+{
+    body{background-color: ;}
+.mainCTM{
+    height: 80vh;
+    display: grid;
+    grid-template-areas: "Titulo holistico"
+                          "img img"
+                          "pqLogo DesLog";
+    justify-content: center;
+}
+.Titulo{
+    text-align: center;
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size: 25px;
+    grid-area: Titulo;
+    padding: 3rem;
+}
+.pqLogo{
+    text-align: center;
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size: 25px;
+    grid-area: pqLogo;
+    padding: 5rem;
+    height: 5rem;
+}
+footer div{
+    display: flex;
+    text-align: end;
+    align-items: center;
+    padding: 30rem;
+}
+.mainNos{
+    height: 80vh;
+    display: grid;
+    grid-template-areas: "fSergio titSer"
+                         "fMaria titMaria"
+                         ;
+    justify-content: center;
+}
+.mainCoach{
+    padding-top: 2rem;
+    height: 80vh;
+    display: grid;
+    grid-template-areas: "queCoach textCoach"
+                         "coachEj textCoach2";
+    justify-content: center;
+}
+.queCoach{
+    text-align: center;
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    grid-area: queCoach;
+    margin: 1rem
+;
+}
+.textCoach{
+    grid-area: textCoach;
+}
+.coachEj{
+    text-align: center;
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    grid-area: coachEj;
+    margin: 1rem
+}.textCoach2{
+    grid-area: textCoach2;
+}
+.Prop{
+    text-align: center;
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size: 35px;
+    padding: 3rem;
+    font-style: italic;
+}
+.listProp{
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-size: 18px;
+    margin: 1.5rem;
+}
+.mainCont{
+    
+    font-family:'Alegreya Sans SC', sans-serif;
+    padding: 2rem;
+    font-style: italic;
+}
+.Cont{
+    text-align: center;
+    font-size: 25px;
+    padding: 2rem;
+}
+.mje{
+    text-align: center;
+    font-size: 23px;
+    padding: 1rem;
+}
+.tabCont{
+    text-align: left;
+    font-size: 10px;
+}
+.Seguinos{
+    font-family:'Alegreya Sans SC', sans-serif;
+    padding: 2rem;
+    font-size: 23px;
+}
+}
